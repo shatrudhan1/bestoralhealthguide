@@ -1,0 +1,57 @@
+[
+  {
+    "id": "bad-breath-causes",
+    "hubId": "bad-breath",
+    "title": "Causes of Bad Breath",
+    "slug": "causes",
+    "description": "Explore the underlying factors that contribute to halitosis, from diet to underlying health conditions.",
+    "relatedClusters": ["bad-breath-treatments", "bad-breath-prevention"],
+    "relatedTools": ["bad-breath-cause-checker"],
+    "relatedComparisons": ["mouthwash-vs-probiotics"],
+    "relatedFAQs": ["is-morning-breath-normal"]
+  },
+  {
+    "id": "bad-breath-treatments",
+    "hubId": "bad-breath",
+    "title": "Bad Breath Treatments",
+    "slug": "treatments",
+    "description": "Effective, science-backed treatments to eliminate halitosis and restore fresh breath.",
+    "relatedClusters": ["bad-breath-causes", "bad-breath-prevention"],
+    "relatedTools": ["bad-breath-cause-checker"],
+    "relatedComparisons": ["tongue-scraper-vs-brush"],
+    "relatedFAQs": ["can-tonsil-stones-cause-bad-breath"]
+  },
+  {
+    "id": "gum-disease-basics",
+    "hubId": "gum-health",
+    "title": "Understanding Gum Disease",
+    "slug": "gum-disease",
+    "description": "Learn about the stages of gum disease, from early gingivitis to advanced periodontitis.",
+    "relatedClusters": ["bleeding-gums", "receding-gums"],
+    "relatedTools": ["gum-disease-risk-calculator"],
+    "relatedComparisons": ["gingivitis-vs-periodontitis"],
+    "relatedFAQs": ["why-do-my-gums-bleed"]
+  },
+  {
+    "id": "bleeding-gums",
+    "hubId": "gum-health",
+    "title": "Bleeding Gums Guide",
+    "slug": "bleeding-gums",
+    "description": "Find out why your gums bleed during brushing or flossing, and what you can do to stop it.",
+    "relatedClusters": ["gum-disease-basics"],
+    "relatedTools": ["oral-health-score-analyzer"],
+    "relatedComparisons": ["water-flosser-vs-string"],
+    "relatedFAQs": ["why-do-my-gums-bleed"]
+  },
+  {
+    "id": "sensitivity-triggers",
+    "hubId": "tooth-sensitivity",
+    "title": "Tooth Sensitivity Triggers",
+    "slug": "triggers",
+    "description": "Identify what sets off your tooth pain, including hot/cold foods, sweets, and pressure.",
+    "relatedClusters": ["sensitivity-causes", "sensitivity-treatments"],
+    "relatedTools": ["tooth-sensitivity-test"],
+    "relatedComparisons": ["sensitive-toothpaste-a-vs-b"],
+    "relatedFAQs": ["why-do-my-teeth-hurt-with-cold"]
+  }
+]

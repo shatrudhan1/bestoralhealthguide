@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bad-breath",
+    "title": "Bad Breath Hub",
+    "slug": "bad-breath",
+    "description": "Comprehensive resources for understanding, diagnosing, and treating bad breath (halitosis).",
+    "icon": "Wind",
+    "clusters": ["causes", "treatments", "prevention", "symptoms"],
+    "comparisons": ["mouthwash-vs-probiotics", "tongue-scraper-vs-brush"],
+    "faqs": ["is-morning-breath-normal", "can-tonsil-stones-cause-bad-breath"],
+    "relatedTools": ["bad-breath-cause-checker"],
+    "relatedProducts": ["oral-probiotics", "tongue-scrapers"]
+  },
+  {
+    "id": "gum-health",
+    "title": "Gum Health Hub",
+    "slug": "gum-health",
+    "description": "Everything you need to know about preventing and managing gum disease, gingivitis, and periodontitis.",
+    "icon": "Activity",
+    "clusters": ["gum-disease", "bleeding-gums", "receding-gums"],
+    "comparisons": ["gingivitis-vs-periodontitis", "water-flosser-vs-string"],
+    "faqs": ["can-receding-gums-grow-back", "why-do-my-gums-bleed"],
+    "relatedTools": ["gum-disease-risk-calculator", "oral-health-score-analyzer"],
+    "relatedProducts": ["electric-toothbrushes", "water-flossers"]
+  },
+  {
+    "id": "tooth-sensitivity",
+    "title": "Tooth Sensitivity Hub",
+    "slug": "tooth-sensitivity",
+    "description": "Understand the root causes of tooth sensitivity and find effective relief strategies.",
+    "icon": "Zap",
+    "clusters": ["causes", "triggers", "treatments"],
+    "comparisons": ["sensitive-toothpaste-a-vs-b"],
+    "faqs": ["why-do-my-teeth-hurt-with-cold", "is-whitening-safe-for-sensitive-teeth"],
+    "relatedTools": ["tooth-sensitivity-test"],
+    "relatedProducts": ["desensitizing-toothpaste"]
+  },
+  {
+    "id": "oral-care-routine",
+    "title": "Oral Care Routine Hub",
+    "slug": "oral-care-routine",
+    "description": "Optimize your daily dental hygiene with evidence-based routines and best practices.",
+    "icon": "Sun",
+    "clusters": ["brushing-techniques", "flossing-methods", "mouthwash-guide"],
+    "comparisons": ["electric-vs-manual-brush", "morning-vs-night-routine"],
+    "faqs": ["how-often-should-i-brush", "should-i-floss-before-or-after-brushing"],
+    "relatedTools": ["plaque-tartar-risk-calculator"],
+    "relatedProducts": ["fluoride-toothpaste", "dental-floss"]
+  },
+  {
+    "id": "faq",
+    "title": "FAQ Hub",
+    "slug": "faq",
+    "description": "Answers to the most common oral health questions, backed by dental professionals.",
+    "icon": "HelpCircle",
+    "clusters": ["general-dental", "procedures", "emergencies"],
+    "comparisons": [],
+    "faqs": [],
+    "relatedTools": [],
+    "relatedProducts": []
+  },
+  {
+    "id": "comparisons",
+    "title": "Comparisons Hub",
+    "slug": "comparisons",
+    "description": "In-depth comparisons of dental products, treatments, and conditions.",
+    "icon": "Scale",
+    "clusters": ["products", "conditions", "treatments"],
+    "comparisons": [],
+    "faqs": [],
+    "relatedTools": [],
+    "relatedProducts": []
+  },
+  {
+    "id": "best-products",
+    "title": "Best Products Hub",
+    "slug": "best-products",
+    "description": "Curated lists of top-rated oral care products reviewed by our experts.",
+    "icon": "Star",
+    "clusters": ["toothpastes", "toothbrushes", "supplements", "tools"],
+    "comparisons": [],
+    "faqs": [],
+    "relatedTools": [],
+    "relatedProducts": []
+  }
+]
