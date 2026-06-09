@@ -18,22 +18,22 @@ const BadBreathSymptomsHubPage = () => {
   };
 
   const articleData = {
-    headline: "Bad Breath Symptoms: Complete Guide to Identifying Oral Odor Signs",
+    headline: "Bad Breath Symptoms: Complete Guide to Identifying Oral Odour Signs",
     description: "Explore common bad breath symptoms, from morning breath to white tongue. Learn what different symptoms mean and when to seek help.",
     author: {
-      "@type": "Organization",
+      "@type": "Organisation",
       "name": "Best Oral Health Guide"
     },
     datePublished: "2026-05-22T08:00:00Z",
     dateModified: "2026-05-22T08:00:00Z",
-    keywords: "bad breath symptoms, morning breath, white tongue, bad taste in mouth, dry mouth symptoms, halitosis signs"
+    Keywords: "bad breath symptoms, morning breath, white tongue, bad taste in mouth, dry mouth symptoms, halitosis signs"
   };
 
   return (
     <div className="main-content-pt min-h-screen bg-[hsl(var(--background))]">
       <Helmet>
-        <title>Bad Breath Symptoms: Complete Guide to Identifying Oral Odor Signs</title>
-        <meta name="description" content="Explore common bad breath symptoms, from morning breath to white tongue. Learn what different symptoms mean and when to seek help." />
+        <title>Bad Breath Symptoms: Complete Guide to Identifying Oral Odour Signs</title>
+        <meta name="description" content=" Explore common bad breath symptoms, from morning breath to white tongue. Learn what different symptoms mean and when to seek help." />
       </Helmet>
       
       <SchemaMarkup type="BreadcrumbList" data={breadcrumbData} />
@@ -94,7 +94,7 @@ const BadBreathSymptomsHubPage = () => {
       <section className="py-12 bg-gray-50/50 border-y border-[hsl(var(--color-border-subtle))]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card className="flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+              <Card className=" flex flex-col h-full hover:shadow-md transition-shadow duration-200">
                 <CardHeader>
                   <div className="mb-4 p-3 bg-blue-50 w-fit rounded-xl text-[hsl(var(--hero-new-teal))]">
                     <Sun size={28} />
@@ -103,7 +103,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col">
                   <p className="text-gray-600 mb-6 flex-grow leading-relaxed">
-                    A common but sometimes severe odor upon waking. Often linked to reduced saliva flow and overnight bacterial multiplication.
+                    A common but sometimes severe odour upon waking. Often linked to reduced saliva flow and overnight bacterial multiplication.
                   </p>
                   <Link to="/bad-breath/symptoms/morning-breath/" className="text-[hsl(var(--hero-new-teal))] flex items-center gap-2 font-semibold hover:underline mt-auto">
                     Learn more <ArrowRight size={18} />
@@ -111,7 +111,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardContent>
               </Card>
 
-              <Card className="flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+              <Card className=" flex flex-col h-full hover:shadow-md transition-shadow duration-200">
                 <CardHeader>
                   <div className="mb-4 p-3 bg-blue-50 w-fit rounded-xl text-[hsl(var(--hero-new-teal))]">
                     <Wind size={28} />
@@ -120,7 +120,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col">
                   <p className="text-gray-600 mb-6 flex-grow leading-relaxed">
-                    A visible white or yellow coating on the tongue's surface, indicating a dense biofilm of trapped bacteria and dead cells.
+                    A visible white or yellow coating on the tongue's surface indicates a dense biofilm of trapped bacteria and dead cells.
                   </p>
                   <Link to="/bad-breath/symptoms/white-tongue/" className="text-[hsl(var(--hero-new-teal))] flex items-center gap-2 font-semibold hover:underline mt-auto">
                     Learn more <ArrowRight size={18} />
@@ -128,7 +128,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardContent>
               </Card>
 
-              <Card className="flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+              <Card className=" flex flex-col h-full hover:shadow-md transition-shadow duration-200">
                 <CardHeader>
                   <div className="mb-4 p-3 bg-blue-50 w-fit rounded-xl text-[hsl(var(--hero-new-teal))]">
                     <Frown size={28} />
@@ -145,7 +145,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardContent>
               </Card>
 
-              <Card className="flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+              <Card className=" flex flex-col h-full hover:shadow-md transition-shadow duration-200">
                 <CardHeader>
                   <div className="mb-4 p-3 bg-blue-50 w-fit rounded-xl text-[hsl(var(--hero-new-teal))]">
                     <Droplets size={28} />
@@ -154,7 +154,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col">
                   <p className="text-gray-600 mb-6 flex-grow leading-relaxed">
-                    A lack of adequate saliva (xerostomia), causing a sticky feeling and rapid overgrowth of odor-producing microbes.
+                    A lack of adequate saliva (xerostomia) causes a sticky feeling and rapid overgrowth of odour-producing microbes.
                   </p>
                   <Link to="/bad-breath/symptoms/dry-mouth-symptoms/" className="text-[hsl(var(--hero-new-teal))] flex items-center gap-2 font-semibold hover:underline mt-auto">
                     Learn more <ArrowRight size={18} />
@@ -162,7 +162,7 @@ const BadBreathSymptomsHubPage = () => {
                 </CardContent>
               </Card>
 
-              <Card className="flex flex-col h-full hover:shadow-md transition-shadow duration-200">
+              <Card className=" flex flex-col h-full hover:shadow-md transition-shadow duration-200">
                 <CardHeader>
                   <div className="mb-4 p-3 bg-blue-50 w-fit rounded-xl text-[hsl(var(--hero-new-teal))]">
                     <Zap size={28} />
@@ -187,7 +187,7 @@ const BadBreathSymptomsHubPage = () => {
         <div className="text-center bg-white rounded-2xl border-2 border-[hsl(var(--hero-new-teal))] p-8 md:p-12 shadow-sm">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Ready to Identify Your Symptoms?</h3>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Our clinically-designed assessment helps match your unique symptoms to their probable root causes so you can find the right solution.
+            Our clinically designed assessment helps match your unique symptoms to their likely root causes so you can find the right solution.
           </p>
           <Link to="/tools/bad-breath-cause-checker" className="btn-primary inline-flex items-center text-lg px-8 py-4">
             Take Our Bad Breath Assessment <ArrowRight className="ml-2" size={20} />
@@ -225,7 +225,7 @@ const BadBreathSymptomsHubPage = () => {
           <p className="text-lg md:text-xl text-[hsl(var(--color-text-secondary))] mb-10 max-w-2xl mx-auto leading-relaxed">
             Don't let bad breath symptoms control your confidence. Use our AI-powered tool to find actionable, science-backed answers tailored to your specific situation.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <div className=" flex flex-col sm:flex-row justify-centre items-centre gap-4">
             <Link to="/tools/bad-breath-cause-checker" className="btn-primary w-full sm:w-auto px-8 py-4 text-lg">
               Start Your Assessment Now
             </Link>
