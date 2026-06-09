@@ -17,8 +17,8 @@ const BadBreathSymptomsHubPage = () => {
       icon: <Sun size={28} />,
       title: 'Morning Breath',
       description:
-        'A common odour on waking, often linked to reduced saliva flow and overnight bacterial buildup.'
-      href: '/bad-breath/symptoms/morning-breath/',
+  'A common odour on waking, often linked to reduced saliva flow and overnight bacterial buildup.',
+href: '/bad-breath/symptoms/morning-breath/',
     },
     {
       icon: <Wind size={28} />,
@@ -31,22 +31,22 @@ const BadBreathSymptomsHubPage = () => {
       icon: <Frown size={28} />,
       title: 'Bad Taste in Mouth',
       description:
-        'A persistent sour, bitter, or foul taste that may be linked to reflux, gum issues, or oral infection.'
-      href: '/bad-breath/symptoms/bad-taste-in-mouth/',
+  'A persistent sour, bitter, or foul taste that may be linked to reflux, gum issues, or oral infection.',
+href: '/bad-breath/symptoms/bad-taste-in-mouth/',
     },
     {
       icon: <Droplets size={28} />,
       title: 'Dry Mouth Symptoms',
       description:
-        'A sticky, dry feeling caused by low saliva, which allows odour-causing microbes to grow faster.'
-      href: '/bad-breath/symptoms/dry-mouth-symptoms/',
+  'A sticky, dry feeling caused by low saliva, which allows odour-causing microbes to grow faster.',
+href: '/bad-breath/symptoms/dry-mouth-symptoms/',
     },
     {
       icon: <Zap size={28} />,
       title: 'Metallic Taste',
       description:
-        'A metallic or blood-like taste that can be a sign of bleeding gums, gingivitis, or certain medications.'
-      href: '/bad-breath/symptoms/metallic-taste/',
+  'A metallic or blood-like taste that can be a sign of bleeding gums, gingivitis, or certain medications.',
+href: '/bad-breath/symptoms/metallic-taste/',
     },
   ];
 
