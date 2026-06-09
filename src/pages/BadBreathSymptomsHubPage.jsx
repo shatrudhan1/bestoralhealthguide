@@ -11,42 +11,56 @@ import {
   Zap,
 } from 'lucide-react';
 
+// Reusable CTA component
+const CTALink = ({ to, children, variant = 'primary' }) => {
+  const baseClasses = 'inline-flex items-center justify-center gap-2 rounded-xl px-8 py-4 text-lg font-semibold transition';
+  const variants = {
+    primary: 'bg-sky-600 text-white hover:bg-sky-700',
+    secondary: 'border border-slate-300 bg-white text-slate-900 hover:bg-slate-50',
+  };
+  return (
+    <Link to={to} className={`${baseClasses} ${variants[variant]}`}>
+      {children}
+    </Link>
+  );
+};
+
 const BadBreathSymptomsHubPage = () => {
   const symptomCards = [
     {
-      icon: <Sun size={28} />,
+      icon: <Sun size={28} aria-hidden="true" />,
       title: 'Morning Breath',
       description:
-  'A common odour on waking, often linked to reduced saliva flow and overnight bacterial buildup.',
-href: '/bad-breath/symptoms/morning-breath/',
+        'A common odour on waking, often linked to reduced saliva flow and overnight bacterial buildup.',
+      href: '/bad-breath/symptoms/morning-breath/',
     },
     {
-      icon: <Wind size={28} />,
+      icon: <Wind size={28} aria-hidden="true" />,
       title: 'White Tongue',
       description:
         'A visible white or yellow coating on the tongue that can indicate trapped bacteria and dead cells.',
       href: '/bad-breath/symptoms/white-tongue/',
     },
     {
-      icon: <Frown size={28} />,
+      icon: <Frown size={28} aria-hidden="true" />,
       title: 'Bad Taste in Mouth',
       description:
-  'A persistent sour, bitter, or foul taste that may be linked to reflux, gum issues, or oral infection.',
-href: '/bad-breath/symptoms/bad-taste-in-mouth/',
+        'A persistent sour, bitter, or foul taste that may be linked to reflux, gum issues, or oral infection.',
+      href: '/bad-breath/symptoms/bad-taste-in-mouth/',
     },
     {
-      icon: <Droplets size={28} />,
+      icon: <Droplets size={28} aria-hidden="true" />,
       title: 'Dry Mouth Symptoms',
       description:
-  'A sticky, dry feeling caused by low saliva, which allows odour-causing microbes to grow faster.',
-href: '/bad-breath/symptoms/dry-mouth-symptoms/',
+        'A sticky, dry feeling caused by low saliva, which allows odour-causing microbes to grow faster.',
+      href: '/bad-breath/symptoms/dry-mouth-symptoms/',
     },
     {
-      icon: <Zap size={28} />,
+      icon: <Zap size={28} aria-hidden="true" />,
       title: 'Metallic Taste',
       description:
-  'A metallic or blood-like taste that can be a sign of bleeding gums, gingivitis, or certain medications.',
-href: '/bad-breath/symptoms/metallic-taste/',
+        'A metallic or blood-like taste that can be a sign of bleeding gums, gingivitis, or certain medications.',
+      href: '/bad-breath/symptoms/metallic-taste/',
     },
   ];
 
@@ -73,6 +87,8 @@ href: '/bad-breath/symptoms/metallic-taste/',
     },
   ];
 
+  const ASSESSMENT_URL = '/tools/bad-breath-cause-checker';
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -91,7 +107,7 @@ href: '/bad-breath/symptoms/metallic-taste/',
             </div>
 
             <div className="mb-4 text-5xl" aria-hidden="true">
-              😷
+              <span role="img" aria-label="face with medical mask">😷</span>
             </div>
 
             <h1 className="max-w-4xl text-center text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
@@ -103,13 +119,10 @@ href: '/bad-breath/symptoms/metallic-taste/',
             </p>
 
             <div className="mt-8">
-              <Link
-                to="/tools/bad-breath-cause-checker"
-                className="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-8 py-4 text-lg font-semibold text-white transition hover:bg-sky-700"
-              >
+              <CTALink to={ASSESSMENT_URL}>
                 Take Our Assessment
                 <ArrowRight size={18} />
-              </Link>
+              </CTALink>
             </div>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-slate-600">
@@ -142,7 +155,7 @@ href: '/bad-breath/symptoms/metallic-taste/',
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {symptomCards.map((item) => (
                 <article
-                  key={item.title}
+                  key={item.href} // ✅ Unique key use किया
                   className="flex h-full flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:shadow-md"
                 >
                   <div className="mb-4 w-fit rounded-xl bg-sky-50 p-3 text-sky-600">
@@ -177,13 +190,10 @@ href: '/bad-breath/symptoms/metallic-taste/',
             </p>
 
             <div className="mt-8">
-              <Link
-                to="/tools/bad-breath-cause-checker"
-                className="inline-flex items-center gap-2 rounded-xl bg-sky-600 px-8 py-4 text-lg font-semibold text-white transition hover:bg-sky-700"
-              >
+              <CTALink to={ASSESSMENT_URL}>
                 Take Our Bad Breath Assessment
                 <ArrowRight size={18} />
-              </Link>
+              </CTALink>
             </div>
           </div>
         </section>
@@ -196,7 +206,7 @@ href: '/bad-breath/symptoms/metallic-taste/',
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             {relatedLinks.map((item) => (
               <Link
-                key={item.title}
+                key={item.href} // ✅ Unique key
                 to={item.href}
                 className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:border-sky-500 hover:shadow-md"
               >
@@ -217,18 +227,12 @@ href: '/bad-breath/symptoms/metallic-taste/',
             </p>
 
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link
-                to="/tools/bad-breath-cause-checker"
-                className="inline-flex w-full items-center justify-center rounded-xl bg-sky-600 px-8 py-4 text-lg font-semibold text-white transition hover:bg-sky-700 sm:w-auto"
-              >
+              <CTALink to={ASSESSMENT_URL}>
                 Start Your Assessment Now
-              </Link>
-              <Link
-                to="/bad-breath/"
-                className="inline-flex w-full items-center justify-center rounded-xl border border-slate-300 bg-white px-8 py-4 text-lg font-semibold text-slate-900 transition hover:bg-slate-50 sm:w-auto"
-              >
+              </CTALink>
+              <CTALink to="/bad-breath/" variant="secondary">
                 Back to Hub Overview
-              </Link>
+              </CTALink>
             </div>
           </div>
         </section>
