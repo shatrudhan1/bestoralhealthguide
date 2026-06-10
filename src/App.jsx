@@ -168,7 +168,12 @@ function App() {
           {/* Note: The Supabase integration is currently INCOMPLETE. User authentication and backend features rely on third-party integration that must be configured by the user. */}
           <Header />
           <main className="flex-grow">
-            <Routes>
+
+<h1 style={{color:'red',fontSize:'60px'}}>
+APP TEST WORKING
+</h1>
+
+<Routes>
               
               {/* Programmatic SEO Hub Routes */}
               <Route path="/bad-breath/" element={<BadBreathHubPage />} />
