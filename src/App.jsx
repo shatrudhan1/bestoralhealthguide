@@ -324,6 +324,10 @@ function App() {
               <Route path="/disclaimer" element={<Disclaimer />} />
               <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
               <Route path="/terms-conditions" element={<TermsConditions />} />
+              <Route
+  path="/test123"
+  element={<h1>TEST PAGE WORKING</h1>}
+/>
             </Routes>
           </main>
           <Footer />
