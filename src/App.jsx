@@ -168,14 +168,9 @@ function App() {
           {/* Note: The Supabase integration is currently INCOMPLETE. User authentication and backend features rely on third-party integration that must be configured by the user. */}
           <Header />
           <main className="flex-grow">
-
-<h1 style={{color:'red',fontSize:'60px'}}>
-APP TEST WORKING
-</h1>
-
-<Routes>
-              
-              {/* Programmatic SEO Hub Routes */}
+         <Routes>
+          
+             {/* Programmatic SEO Hub Routes */}
               <Route path="/bad-breath/" element={<BadBreathHubPage />} />
               <Route path="/bad-breath/symptoms/" element={<BadBreathSymptomsHubPage />} />
               <Route path="/bad-breath/causes/" element={<BadBreathCausesPage />} />
@@ -329,10 +324,7 @@ APP TEST WORKING
               <Route path="/disclaimer" element={<Disclaimer />} />
               <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
               <Route path="/terms-conditions" element={<TermsConditions />} />
-              <Route
-  path="/test123"
-  element={<h1>TEST PAGE WORKING</h1>}
-/>
+          
             </Routes>
           </main>
           <Footer />
