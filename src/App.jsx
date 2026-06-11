@@ -27,6 +27,7 @@ import FAQPage from '@/pages/FAQPage';
 import SEOAuditReport from '@/pages/SEOAuditReport';
 import BestOralHealthGuide from '@/pages/BestOralHealthGuide';
 import GumStrength from '@/pages/GumStrength';
+import SymptomsHubPage from '@/pages/SymptomsHubPage';
 
 // Hub Landing Pages (Programmatic SEO Phase 2)
 import BadBreathHubPage from '@/pages/BadBreathHubPage';
@@ -212,6 +213,7 @@ function App() {
               <Route path="/blog-post5" element={<Navigate to="/blog/bleeding-gums-causes-treatment" replace={true} />} />
 
               <Route path="/" element={<HomePage />} />
+              <Route path="/symptoms" element={<SymptomsHubPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/resources" element={<ResourcesPage />} />
