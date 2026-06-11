@@ -171,7 +171,7 @@ function App() {
          <Routes>
           
              {/* Programmatic SEO Hub Routes */}
-              <Route path="/bad-breath/" element={<BadBreathHubPage />} />
+              <Route path="/bad-breath" element={<BadBreathHubPage />} />
               <Route path="/bad-breath/symptoms" element={<BadBreathSymptomsHubPage />} />
               <Route path="/bad-breath/causes/" element={<BadBreathCausesPage />} />
               <Route path="/bad-breath/causes/bacterial-causes/" element={<BadBreathBacterialCausesPage />} />
