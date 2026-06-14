@@ -7,13 +7,13 @@ const SYMPTOMS_DATA = [
     id: "bad-breath",
     title: "Bad Breath (Halitosis)",
     category: "Breath & Saliva",
-    shortDesc: "Persistent unpleasant odor from the mouth that doesn't disappear after brushing.",
+    shortDesc: "Persistent unpleasant odour from the mouth that doesn't disappear after brushing.",
     longDesc: "While often linked to volatile sulfur compounds from oral bacteria, chronic halitosis can also point to systemic conditions, sinus infections, or gastrointestinal issues.",
     severity: "Low to Moderate",
     urgency: "Consult a dentist if symptoms persist beyond 2 weeks despite rigorous hygiene.",
     commonCauses: ["Poor dental hygiene", "Dry mouth (Xerostomia)", "Gum disease", "Acid reflux"],
     url: "/bad-breath",
-    tags: ["breath", "odor", "smell", "halitosis", "hygiene"]
+    tags: ["breath", "odour", "smell", "halitosis", "hygiene"]
   },
   {
     id: "bleeding-gums",
@@ -499,7 +499,7 @@ export default function SymptomsHubPage() {
 
       {/* Safety Notice Footer */}
       <footer className="bg-slate-900 text-slate-400 py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
-        <div className="mx-auto max-w-6xl text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="mx-auto max-w-6xl text-centre md:text-left flex flex-col md:flex-row justify-between items-centre gap-6">
           <div className="max-w-md">
             <h4 className="text-white text-sm font-bold tracking-wider uppercase mb-2">Oral Symptoms Index</h4>
             <p className="text-xs text-slate-400 leading-relaxed">
@@ -517,5 +517,9 @@ export default function SymptomsHubPage() {
         <div className="mx-auto max-w-6xl mt-8 pt-8 border-t border-slate-800/80 text-center text-xs text-slate-500">
           &copy; {new Date().getFullYear()} Clinical Oral Hub Network. All Rights Reserved. Vetted Globally.
         </div>
-      </footer>
+            </footer>
     </main>
+  )
+}
+
+export default SymptomsHubPage;
