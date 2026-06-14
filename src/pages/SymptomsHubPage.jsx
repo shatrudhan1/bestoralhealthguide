@@ -521,5 +521,3 @@ export default function SymptomsHubPage() {
     </main>
   )
 }
-
-export default SymptomsHubPage;
