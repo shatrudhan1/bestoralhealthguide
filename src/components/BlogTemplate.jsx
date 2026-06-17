@@ -22,7 +22,10 @@ const BlogTemplate = ({
   relatedPostSlug,
   relatedPostTitle
 }) => {
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const currentUrl =
+  typeof window !== 'undefined'
+    ? window.location.href.split('?')[0]
+    : '';
   const [ctaText, setCtaText] = useState("Check Official Price");
 
   const hasContent = React.Children.count(children) > 0;
@@ -73,6 +76,7 @@ const BlogTemplate = ({
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <link rel="canonical" href={currentUrl} />
         <meta property="og:site_name" content="Best Oral Health Guide" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
