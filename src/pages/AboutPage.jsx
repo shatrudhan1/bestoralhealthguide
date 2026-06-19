@@ -215,6 +215,33 @@ className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow dura
   </ul>
 </motion.section>
 
+          {/* Sources We Trust Section */}
+
+<motion.section
+{...fadeInUp}
+className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 p-8 md:p-12"
+
+>
+
+  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+    Sources We Trust
+  </h2>
+
+  <p className="text-lg text-gray-700 mb-6">
+    Whenever possible, our content references information from recognised public health and dental organisations.
+  </p>
+
+  <ul className="space-y-3 text-gray-700 text-lg">
+    <li>✓ American Dental Association (ADA)</li>
+    <li>✓ National Health Service (NHS)</li>
+    <li>✓ Centers for Disease Control and Prevention (CDC)</li>
+    <li>✓ PubMed Research Database</li>
+    <li>✓ Mayo Clinic</li>
+    <li>✓ National Institute of Dental and Craniofacial Research (NIDCR)</li>
+  </ul>
+</motion.section>
+
+
        {/* How the Website is Supported Section */}
           <motion.section 
             {...fadeInUp}
