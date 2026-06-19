@@ -182,7 +182,40 @@ const AboutPage = () => {
             </div>
           </motion.section>
 
-          {/* How the Website is Supported Section */}
+          {/* Editorial Standards Section */}
+
+<motion.section
+{...fadeInUp}
+className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 p-8 md:p-12"
+
+>
+
+  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+    Our Editorial Standards
+  </h2>
+
+  <p className="text-lg text-gray-700 mb-4">
+    Best Oral Health Guide is an independent educational website focused on oral health awareness and consumer education.
+  </p>
+
+  <p className="text-lg text-gray-700 mb-4">
+    We are not a dental clinic and do not provide medical diagnosis, treatment, or professional dental services.
+  </p>
+
+  <p className="text-lg text-gray-700 mb-6">
+    Our content is created using publicly available oral health resources, scientific publications, and reputable health organizations.
+  </p>
+
+  <ul className="space-y-3 text-gray-700">
+    <li>✓ Evidence-based educational content</li>
+    <li>✓ Regular content reviews and updates</li>
+    <li>✓ Transparent affiliate disclosures</li>
+    <li>✓ No unrealistic cure claims</li>
+    <li>✓ User-first publishing standards</li>
+  </ul>
+</motion.section>
+
+       {/* How the Website is Supported Section */}
           <motion.section 
             {...fadeInUp}
             className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 p-8 md:p-12"
