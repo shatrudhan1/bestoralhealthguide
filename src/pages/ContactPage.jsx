@@ -114,7 +114,10 @@ const ContactPage = () => {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Location</h3>
-                    <p className="text-gray-600">Serving audiences in US, UK, Canada & Worldwide.</p>
+                    <p className="text-gray-600">
+  Serving readers in the United States,
+  United Kingdom, Canada and worldwide.
+</p>
                   </div>
                 </div>
               </div>
