@@ -266,6 +266,31 @@ className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow dura
   </p>
 </motion.section>
 
+     {/* Content Update Policy Section */}
+
+<motion.section
+{...fadeInUp}
+className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 p-8 md:p-12"
+
+>
+
+  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+    Content Update Policy
+  </h2>
+
+  <p className="text-lg text-gray-700 mb-4">
+    We regularly review and update content to reflect current oral health recommendations, scientific evidence, and best practices.
+  </p>
+
+  <p className="text-lg text-gray-700 mb-4">
+    Articles may be updated periodically to improve accuracy, clarity, readability, and relevance.
+  </p>
+
+  <p className="text-lg text-gray-700">
+    Our goal is to provide readers with trustworthy educational information that remains useful and up to date.
+  </p>
+</motion.section>
+  
        {/* How the Website is Supported Section */}
           <motion.section 
             {...fadeInUp}
