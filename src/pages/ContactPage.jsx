@@ -66,6 +66,8 @@ const ContactPage = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
               <p className="text-gray-600 mb-8 leading-relaxed">
                 We value your feedback and questions. Whether you're looking for clarification on a review or have a suggestion for a new topic, our team is ready to assist you.
+                For the fastest response, please email us directly at [hello@bestoralhealthguide.com](mailto:hello@bestoralhealthguide.com).
+
               </p>
 
               <div className="space-y-6">
