@@ -86,7 +86,7 @@ const ContactPage = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Email Us</h3>
                     <a href="mailto:contact@bestoralhealthguide.com" className="text-[#4A90E2] hover:underline">
-                      contact@bestoralhealthguide.com
+                      hello@bestoralhealthguide.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">For general inquiries and support</p>
                   </div>
