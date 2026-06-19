@@ -148,6 +148,7 @@ import Disclaimer from '@/pages/legal/Disclaimer';
 import AffiliateDisclosure from '@/pages/legal/AffiliateDisclosure';
 import TermsConditions from '@/pages/legal/TermsConditions';
 import MedicalDisclaimerPage from "./pages/MedicalDisclaimerPage";
+import EditorialPolicyPage from "./pages/EditorialPolicyPage";
 
 function App() {
   return (
@@ -328,6 +329,10 @@ function App() {
               <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
               <Route path="/terms-conditions" element={<TermsConditions />} />
              <Route path="/medical-disclaimer" element={<MedicalDisclaimerPage />} />
+             <Route
+  path="/editorial-policy"
+  element={<EditorialPolicyPage />}
+/>
           
             </Routes>
           </main>
