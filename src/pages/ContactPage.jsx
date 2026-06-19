@@ -188,6 +188,24 @@ const ContactPage = () => {
           </div>
         </section>
 
+        {/* Contact Purpose Section */}
+<section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
+    <h2 className="text-2xl font-bold text-gray-900 mb-4">
+      Why Contact Us?
+    </h2>
+
+<ul className="space-y-3 text-gray-700">
+  <li>✓ General questions about our content</li>
+  <li>✓ Corrections or content updates</li>
+  <li>✓ Affiliate disclosure inquiries</li>
+  <li>✓ Partnership opportunities</li>
+  <li>✓ Technical website issues</li>
+  <li>✓ Feedback and suggestions</li>
+ </ul>
+</div>
+</section>
+
         {/* Internal Linking / Quick Links */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-10">
