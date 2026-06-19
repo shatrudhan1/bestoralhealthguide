@@ -86,6 +86,11 @@ const Footer = () => {
     Editorial Policy
   </Link>
 </li>
+            <li>
+  <Link to="/about-author" className="link">
+    About Author
+  </Link>
+</li>
             <li><Link to="/terms-conditions" className="link">Terms</Link></li>
             <li><Link to="/contact" className="link">Contact Support</Link></li>
           </ul>
