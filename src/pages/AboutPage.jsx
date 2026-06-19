@@ -241,6 +241,30 @@ className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow dura
   </ul>
 </motion.section>
 
+          {/* About This Website Section */}
+
+<motion.section
+{...fadeInUp}
+className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 p-8 md:p-12"
+
+>
+
+  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+    About This Website
+  </h2>
+
+  <p className="text-lg text-gray-700 mb-4">
+    Best Oral Health Guide was created as an independent educational resource focused on oral health awareness, preventive care, and consumer education.
+  </p>
+
+  <p className="text-lg text-gray-700 mb-4">
+    Our mission is to simplify complex oral health topics and make evidence-based information easier for everyday readers to understand.
+  </p>
+
+  <p className="text-lg text-gray-700">
+    We are committed to publishing helpful, easy-to-understand content that supports informed health decisions while encouraging readers to seek professional dental care when needed.
+  </p>
+</motion.section>
 
        {/* How the Website is Supported Section */}
           <motion.section 
