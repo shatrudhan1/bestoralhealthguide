@@ -80,6 +80,7 @@ const Footer = () => {
           <ul className="footer-links">
             <li><Link to="/privacy-policy" className="link">Privacy Policy</Link></li>
             <li><Link to="/disclaimer" className="link">Disclaimer</Link></li>
+            <li><Link to="/medical-disclaimer" className="link">Medical Disclaimer</Link></li>
             <li><Link to="/terms-conditions" className="link">Terms</Link></li>
             <li><Link to="/contact" className="link">Contact Support</Link></li>
           </ul>
