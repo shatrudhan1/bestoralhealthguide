@@ -149,6 +149,7 @@ import AffiliateDisclosure from '@/pages/legal/AffiliateDisclosure';
 import TermsConditions from '@/pages/legal/TermsConditions';
 import MedicalDisclaimerPage from "./pages/MedicalDisclaimerPage";
 import EditorialPolicyPage from "./pages/EditorialPolicyPage";
+import AboutAuthorPage from "./pages/AboutAuthorPage";
 
 function App() {
   return (
@@ -332,6 +333,10 @@ function App() {
              <Route
   path="/editorial-policy"
   element={<EditorialPolicyPage />}
+/>
+           <Route
+  path="/about-author"
+  element={<AboutAuthorPage />}
 />
           
             </Routes>
