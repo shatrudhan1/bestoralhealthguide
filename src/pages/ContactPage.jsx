@@ -100,8 +100,11 @@ const ContactPage = () => {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Response Time</h3>
-                    <p className="text-gray-600">We respond within 24–48 hours.</p>
-                    <p className="text-sm text-gray-500 mt-1">Monday - Friday (excluding holidays)</p>
+                    <p className="text-gray-600">
+                       We respond within 24–48 business hours.
+                     <br />
+                        Monday–Friday (excluding holidays).
+                      </p>
                   </div>
                 </div>
 
