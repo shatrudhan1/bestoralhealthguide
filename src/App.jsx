@@ -147,6 +147,7 @@ import PrivacyPolicy from '@/pages/legal/PrivacyPolicy';
 import Disclaimer from '@/pages/legal/Disclaimer';
 import AffiliateDisclosure from '@/pages/legal/AffiliateDisclosure';
 import TermsConditions from '@/pages/legal/TermsConditions';
+import MedicalDisclaimerPage from "./pages/MedicalDisclaimerPage";
 
 function App() {
   return (
