@@ -326,6 +326,7 @@ function App() {
               <Route path="/disclaimer" element={<Disclaimer />} />
               <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
               <Route path="/terms-conditions" element={<TermsConditions />} />
+             <Route path="/medical-disclaimer" element={<MedicalDisclaimerPage />} />
           
             </Routes>
           </main>
