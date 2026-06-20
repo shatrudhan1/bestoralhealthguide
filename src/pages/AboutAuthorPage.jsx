@@ -226,7 +226,7 @@ const AboutAuthorPage = () => {
 
               <p className="text-gray-600 mt-2">
                 For inquiries, feedback, corrections, or partnerships,
-please contact us at hello@bestoralhealthguide.comt
+Please contact us at hello@bestoralhealthguide.com
               </p>
 
               <p className="text-gray-600 mt-2">
