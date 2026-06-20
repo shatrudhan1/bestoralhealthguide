@@ -19,7 +19,7 @@ const AboutAuthorPage = () => {
         <div className="max-w-5xl mx-auto px-6 pt-32 pb-12">
 
           {/* Hero Section */}
-<div className="mb-12">
+<div className="mb-12 text-center">
   <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
     About Best Oral Health Guide
   </h1>
