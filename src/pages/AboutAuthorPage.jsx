@@ -19,33 +19,40 @@ const AboutAuthorPage = () => {
         <div className="max-w-5xl mx-auto px-6 py-12">
 
           {/* Hero Section */}
-          <div className="bg-slate-50 border rounded-xl p-6 mb-10">
-  <h2 className="text-2xl font-bold mb-4">
-    Author Information
-  </h2>
+<div className="mb-12">
+  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+    About Best Oral Health Guide
+  </h1>
 
-  <p><strong>Name:</strong> Shatrudhan Mukhiya</p>
-
-  <p><strong>Role:</strong> Founder & Publisher</p>
-
-  <p><strong>Website:</strong> Best Oral Health Guide</p>
-
-  <p><strong>Focus Areas:</strong></p>
-
-  <ul className="list-disc ml-6 mt-2">
-    <li>Oral Health Education</li>
-    <li>Dental Care Resources</li>
-    <li>Health Content Publishing</li>
-    <li>AI-Assisted Educational Content</li>
-  </ul>
+  <p className="text-lg text-gray-600 leading-relaxed">
+    Helping readers make informed oral health decisions through
+    educational, research-based content, practical resources,
+    and easy-to-use assessment tools.
+  </p>
 </div>
+          {/* Author Information */}
+<section className="mb-12">
+  <div className="bg-slate-50 border rounded-xl p-6">
+    <h2 className="text-2xl font-bold mb-4">
+      Author Information
+    </h2>
 
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Helping readers make informed oral health decisions through
-              educational, research-based content, practical resources,
-              and easy-to-use assessment tools.
-            </p>
-          </div>
+    <p><strong>Name:</strong> Shatrudhan Mukhiya</p>
+    <p><strong>Role:</strong> Founder & Publisher</p>
+    <p><strong>Website:</strong> Best Oral Health Guide</p>
+
+    <p className="mt-4">
+      <strong>Focus Areas:</strong>
+    </p>
+
+    <ul className="list-disc ml-6 mt-2">
+      <li>Oral Health Education</li>
+      <li>Dental Care Resources</li>
+      <li>Health Content Publishing</li>
+      <li>AI-Assisted Educational Content</li>
+    </ul>
+  </div>
+</section>
 
           {/* Mission */}
           <section className="mb-12">
@@ -175,7 +182,8 @@ const AboutAuthorPage = () => {
               </p>
 
               <p className="text-gray-600 mt-2">
-                https://bestoralhealthguide.com/contact
+                For inquiries, feedback, corrections, or partnerships,
+please contact us at hello@bestoralhealthguide.comt
               </p>
 
               <p className="text-gray-600 mt-2">
