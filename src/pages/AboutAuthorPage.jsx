@@ -47,6 +47,9 @@ const AboutAuthorPage = () => {
       <p className="text-lg text-blue-600 font-medium mt-2">
         Founder & Publisher
       </p>
+      <p className="text-sm text-gray-500 mt-1">
+  Last Updated: June 2026
+</p>
 
       <p className="text-gray-600 mt-3">
         Shatrudhan Mukhiya is the Founder and Publisher of Best Oral Health Guide. He focuses on creating educational oral health resources, dental care guides, symptom-based content, and evidence-based recommendations to help readers make informed decisions about their oral health.
@@ -68,6 +71,30 @@ const AboutAuthorPage = () => {
     </div>
 
   </div>
+</div>
+          <div className="flex flex-wrap gap-3 mt-5">
+  
+  <a
+    href="/editorial-policy"
+    className="text-blue-600 hover:text-blue-800 font-medium"
+  >
+    Editorial Policy →
+  </a>
+
+  <a
+    href="/medical-disclaimer"
+    className="text-blue-600 hover:text-blue-800 font-medium"
+  >
+    Medical Disclaimer →
+  </a>
+
+  <a
+    href="/contact"
+    className="text-blue-600 hover:text-blue-800 font-medium"
+  >
+    Contact Author →
+  </a>
+
 </div>
       
           {/* Mission */}
