@@ -30,6 +30,47 @@ const AboutAuthorPage = () => {
     and easy-to-use assessment tools.
   </p>
 </div>
+          <div className="bg-white border rounded-2xl p-8 shadow-sm mb-10">
+  <div className="flex flex-col md:flex-row items-centre gap-6">
+    
+    <img
+      src="/images/shatrudhan-mukhiya.png"
+      alt="Shatrudhan Mukhiya"
+      className="w-40 h-40 rounded-full object-cover border-4 border-blue-100 shadow-lg"
+    />
+
+    <div>
+      <h2 className="text-3xl font-bold">
+        Shatrudhan Mukhiya
+      </h2>
+
+      <p className="text-lg text-blue-600 font-medium mt-2">
+        Founder & Publisher
+      </p>
+
+      <p className="text-gray-600 mt-3">
+        Creator of Best Oral Health Guide. Focused on oral health
+        education, research-based content, oral hygiene resources,
+        and AI-assisted health information.
+      </p>
+
+      <div className="flex flex-wrap gap-2 mt-4">
+        <span className="px-3 py-1 bg-blue-50 rounded-full text-sm">
+          Oral Health Education
+        </span>
+
+        <span className="px-3 py-1 bg-blue-50 rounded-full text-sm">
+          Dental Resources
+        </span>
+
+        <span className="px-3 py-1 bg-blue-50 rounded-full text-sm">
+          Content Publishing
+        </span>
+      </div>
+    </div>
+
+  </div>
+</div>
           {/* Author Information */}
 <section className="mb-12">
   <div className="bg-slate-50 border rounded-xl p-6">
