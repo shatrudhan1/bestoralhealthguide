@@ -69,30 +69,7 @@ const AboutAuthorPage = () => {
 
   </div>
 </div>
-          {/* Author Information */}
-<section className="mb-12">
-  <div className="bg-slate-50 border rounded-xl p-6">
-    <h2 className="text-2xl font-bold mb-4">
-      Author Information
-    </h2>
-
-    <p><strong>Name:</strong> Shatrudhan Mukhiya</p>
-    <p><strong>Role:</strong> Founder & Publisher</p>
-    <p><strong>Website:</strong> Best Oral Health Guide</p>
-
-    <p className="mt-4">
-      <strong>Focus Areas:</strong>
-    </p>
-
-    <ul className="list-disc ml-6 mt-2">
-      <li>Oral Health Education</li>
-      <li>Dental Care Resources</li>
-      <li>Health Content Publishing</li>
-      <li>AI-Assisted Educational Content</li>
-    </ul>
-  </div>
-</section>
-
+      
           {/* Mission */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
