@@ -49,9 +49,7 @@ const AboutAuthorPage = () => {
       </p>
 
       <p className="text-gray-600 mt-3">
-        Creator of Best Oral Health Guide. Focused on oral health
-        education, research-based content, oral hygiene resources,
-        and AI-assisted health information.
+        Shatrudhan Mukhiya is the Founder and Publisher of Best Oral Health Guide. He focuses on creating educational oral health resources, dental care guides, symptom-based content, and evidence-based recommendations to help readers make informed decisions about their oral health.
       </p>
 
       <div className="flex flex-wrap gap-2 mt-4">
