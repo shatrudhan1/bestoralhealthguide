@@ -16,7 +16,7 @@ const AboutAuthorPage = () => {
       </Helmet>
 
       <div className="bg-white min-h-screen">
-        <div className="max-w-5xl mx-auto px-6 pt-24 pb-12">
+        <div className="max-w-5xl mx-auto px-6 pt-32 pb-12">
 
           {/* Hero Section */}
 <div className="mb-12">
