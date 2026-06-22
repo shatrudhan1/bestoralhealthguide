@@ -91,6 +91,9 @@ const Footer = () => {
     About Author
   </Link>
 </li>
+            <Link to="/sources">
+  Sources & References
+</Link>
             <li><Link to="/terms-conditions" className="link">Terms</Link></li>
             <li><Link to="/contact" className="link">Contact Support</Link></li>
           </ul>
