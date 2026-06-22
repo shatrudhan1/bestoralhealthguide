@@ -167,6 +167,24 @@ function App() {
             <meta property="og:type" content="website" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="robots" content="index, follow" />
+            <script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Best Oral Health Guide",
+  "url": "https://bestoralhealthguide.com",
+  "logo": "https://bestoralhealthguide.com/favicon.svg",
+  "description":
+    "Educational oral health resource providing guides, tools, and evidence-based information about dental care, gum health, and bad breath.",
+  "founder": {
+    "@type": "Person",
+    "name": "Shatrudhan Mukhiya"
+  },
+  "sameAs": [
+    "https://bestoralhealthguide.com/about-author"
+  ]
+})}
+</script>
             <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
             <link rel="apple-touch-icon" href="/favicon.svg" sizes="180x180" />
             <meta name="theme-color" content="#4A90E2" />
