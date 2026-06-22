@@ -94,6 +94,9 @@ const Footer = () => {
             <Link to="/sources">
   Sources & References
 </Link>
+            <Link to="/content-review-process">
+  Content Review Process
+</Link>
             <li><Link to="/terms-conditions" className="link">Terms</Link></li>
             <li><Link to="/contact" className="link">Contact Support</Link></li>
           </ul>
