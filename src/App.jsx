@@ -150,6 +150,7 @@ import TermsConditions from '@/pages/legal/TermsConditions';
 import MedicalDisclaimerPage from "./pages/MedicalDisclaimerPage";
 import EditorialPolicyPage from "./pages/EditorialPolicyPage";
 import AboutAuthorPage from "./pages/AboutAuthorPage";
+import SourcesPage from "./pages/SourcesPage";
 
 function App() {
   return (
@@ -338,6 +339,7 @@ function App() {
   path="/about-author"
   element={<AboutAuthorPage />}
 />
+           <Route path="/sources" element={<SourcesPage />} />
           
             </Routes>
           </main>
