@@ -27,7 +27,7 @@ const HeroSection = () => {
           <span className="trust-icon">
             <Check size={18} strokeWidth={3} />
           </span>
-          <span className="trust-text">✓ Trusted by 50,000+ users worldwide</span>
+          <span className="trust-text">✓ Trusted by oral health readers worldwide</span>
         </div>
         <div className="hero-trust-signal-item">
           <span className="trust-icon">
