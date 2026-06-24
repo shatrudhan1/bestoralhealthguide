@@ -26,6 +26,28 @@ const HomePage = () => {
       }
     }
   };
+  const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Best Oral Health Guide",
+  "url": "https://bestoralhealthguide.com",
+  "founder": {
+    "@type": "Person",
+    "name": "Shatrudhan Mukhiya"
+  }
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shatrudhan Mukhiya",
+  "jobTitle": "Founder & Publisher",
+  "url": "https://bestoralhealthguide.com/about-author",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Best Oral Health Guide"
+  }
+};
 
   const productCards = [
     {
@@ -102,6 +124,13 @@ const HomePage = () => {
         <meta property="og:url" content="https://www.bestoralhealthguide.com/" />
         <meta name="twitter:card" content="summary_large_image" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+        <script type="application/ld+json">
+  {JSON.stringify(organizationSchema)}
+</script>
+
+<script type="application/ld+json">
+  {JSON.stringify(personSchema)}
+</script>
       </Helmet>
 
       <div className="bg-white font-sans text-slate-900 main-content-pt">
