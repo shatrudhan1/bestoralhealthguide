@@ -6,11 +6,11 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <h1 className="hero-headline">
-        AI-Powered Oral Health Guidance for USA & UK
+        Stop Bleeding Gums & Bad Breath Naturally
       </h1>
       
       <p className="hero-subheadline">
-        Science-backed tools, expert insights, and personalized oral health guidance. Trusted by 50,000+ users.
+        Science-backed guides, free oral health tools, and trusted recommendations to improve your oral health.
       </p>
       
       <div className="hero-cta-container">
