@@ -225,79 +225,8 @@ const personSchema = {
             </div>
           </div>
         </section>
-
-        {/* TOOLS SECTION (Existing) */}
-        <section id="tools" className="py-20 bg-slate-900 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Get Instant Results + Personalized Recommendations</h2>
-              <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-                Don't wait for your next dental visit. Use our <Link to="/tools" className="text-blue-400 hover:underline">oral health tools</Link> to identify the root cause of your symptoms today.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="bg-slate-800 rounded-2xl border border-slate-700 p-8 flex flex-col h-full hover:border-blue-500 transition-colors">
-                <div className="w-14 h-14 bg-rose-500/20 text-rose-400 rounded-xl flex items-center justify-center mb-6">
-                  <HeartPulse size={28} />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-3">Check Your Gum Disease Risk in 30 Seconds</h3>
-                <p className="text-slate-400 mb-8 flex-grow">
-                  Answer 5 quick questions to determine if your bleeding gums are an early sign of periodontitis. Get a personalized prevention plan instantly.
-                </p>
-                <div className="mt-auto">
-                  <Link 
-                    to="/tools/gum-disease-risk-calculator"
-                    className="w-full py-4 bg-rose-600 hover:bg-rose-500 text-white font-bold rounded-xl transition-colors text-center shadow-lg flex items-center justify-center"
-                  >
-                    Start Free Gum Disease Test →
-                  </Link>
-                  <p className="text-center text-[12px] md:text-[13px] text-slate-400 mt-2">Takes only 30 seconds</p>
-                </div>
-              </div>
-
-              <div className="bg-slate-800 rounded-2xl border border-slate-700 p-8 flex flex-col h-full hover:border-blue-500 transition-colors">
-                <div className="w-14 h-14 bg-blue-500/20 text-blue-400 rounded-xl flex items-center justify-center mb-6">
-                  <Activity size={28} />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-3">Find the Root Cause of Bad Breath Instantly</h3>
-                <p className="text-slate-400 mb-8 flex-grow">
-                  Is it your diet, dry mouth, or hidden bacteria? Identify the exact cause of your halitosis and discover the best products to fix it.
-                </p>
-                <div className="mt-auto">
-                  <Link 
-                    to="/tools/bad-breath-cause-checker"
-                    className="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-colors text-center shadow-lg flex items-center justify-center"
-                  >
-                    Find The Real Cause of Bad Breath →
-                  </Link>
-                  <p className="text-center text-[12px] md:text-[13px] text-slate-400 mt-2">No signup required</p>
-                </div>
-              </div>
-
-              <div className="bg-slate-800 rounded-2xl border border-slate-700 p-8 flex flex-col h-full hover:border-blue-500 transition-colors">
-                <div className="w-14 h-14 bg-emerald-500/20 text-emerald-400 rounded-xl flex items-center justify-center mb-6">
-                  <Sparkles size={28} />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-3">Plaque & Tartar Risk</h3>
-                <p className="text-slate-400 mb-8 flex-grow">
-                  Assess your daily routine to see how fast plaque is calcifying on your teeth. Learn how to stop tartar buildup between cleanings.
-                </p>
-                <div className="mt-auto">
-                  <Link 
-                    to="/tools/plaque-tartar-risk-calculator"
-                    className="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl transition-colors text-center shadow-lg flex items-center justify-center"
-                  >
-                    See Your Plaque Risk Score →
-                  </Link>
-                  <p className="text-center text-[12px] md:text-[13px] text-slate-400 mt-2">Takes only 30 seconds</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* SOCIAL PROOF BANNER */}
+    
+       {/* SOCIAL PROOF BANNER */}
         <div className="bg-blue-600 py-6 text-center border-y border-blue-700">
           <p className="text-white font-bold text-lg md:text-xl flex items-center justify-center">
             <Users className="mr-3 text-blue-200" size={24} /> Trusted by 10,000+ readers worldwide to improve their oral health.
