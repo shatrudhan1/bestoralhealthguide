@@ -7,8 +7,10 @@ import {
   Search, FileText
 } from 'lucide-react';
 
-import HeroSection from '@/components/HeroSection';
-import FeaturedToolsSection from '@/components/FeaturedToolsSection';
+import React, { lazy, Suspense } from 'react';
+
+const HeroSection = lazy(() => import('@/components/HeroSection'));
+const FeaturedToolsSection = lazy(() => import('@/components/FeaturedToolsSection'));
 
 const HomePage = () => {
   const schemaData = {
