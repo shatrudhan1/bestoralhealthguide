@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import { 
-  ArrowRight, ShieldCheck, Microscope, Users, BookOpen, 
-  Activity, Sparkles, HeartPulse, CheckCircle2, 
-  Search, FileText
+
+import {
+  ArrowRight,
+  ShieldCheck,
+  Microscope,
+  Users,
+  BookOpen,
+  Activity,
+  Sparkles,
+  HeartPulse,
+  CheckCircle2,
+  Search,
+  FileText
 } from 'lucide-react';
 
-import React, { lazy, Suspense } from 'react';
+import HeroSection from '@/components/HeroSection';
 
-const HeroSection = lazy(() => import('@/components/HeroSection'));
 const FeaturedToolsSection = lazy(() => import('@/components/FeaturedToolsSection'));
 
 const HomePage = () => {
@@ -281,7 +289,9 @@ const personSchema = {
         </section>
 
         {/* NEW FEATURED TOOLS SECTION COMPONENT */}
-        <FeaturedToolsSection />
+        <Suspense fallback={<div className="py-20 text-center">Loading...</div>}>
+  <FeaturedToolsSection />
+</Suspense>
 
         {/* EMAIL CAPTURE SECTION */}
         <section className="py-20 bg-white border-t border-slate-200">
