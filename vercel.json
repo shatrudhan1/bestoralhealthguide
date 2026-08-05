@@ -1,8 +1,9 @@
 {
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/"
-    }
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "redirects": [
+    { "source": "/symptoms", "destination": "/bad-breath/symptoms", "permanent": true },
+    { "source": "/causes", "destination": "/bad-breath/causes", "permanent": true }
   ]
 }
